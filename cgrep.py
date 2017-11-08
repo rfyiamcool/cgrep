@@ -92,6 +92,7 @@ def parse_cmd():
 
 
 def main():
+    parse_cmd()
     if len(sys.argv) == 1:
         sys.stderr.write("Usage: tail -f debug.log | %s 'one.*pattern' 'another'\n" % sys.argv[0])
         sys.exit(1)
@@ -110,5 +111,4 @@ def main():
 
 
 if __name__ == '__main__':
-    parse_cmd()
     main()
