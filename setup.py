@@ -18,8 +18,7 @@ setup(
     url='http://xiaorui.cc',
     author='ruifengyun',
     author_email='rfyiamcool@163.com',
-    install_requires=['termcolor'],
-    py_modules=['cgrep'],
+    py_modules=['cgrep', 'termcolor'],
     license="MIT",
     entry_points={
         'console_scripts': [

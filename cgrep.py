@@ -21,7 +21,7 @@ class ReplaceColor:
         if not res:
             return False, None
 
-        return True, self.regex.sub(colored(res.group(0), self.color[0], attrs=["reverse", "blink"]), line)
+        return True, self.regex.sub(colored(res.group(0), self.color[0], attrs=["reverse", "bold"]), line)
 
 
 def process(line):
