@@ -4,8 +4,8 @@ import sys
 import re
 import getopt
 
-from termcolor import colored, COLORS
 from itertools import starmap
+from termcolor import colored, COLORS
 
 
 class ReplaceColor:
@@ -14,7 +14,6 @@ class ReplaceColor:
         self.color = color
 
     def __call__(self, line):
-        # return self.regex.sub(lambda x: colored(x.group(0), self.color[0], attrs=["reverse", "blink"]), line)
         if not line:
             return False, None
 
