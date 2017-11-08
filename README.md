@@ -24,3 +24,5 @@ help
 [ruifengyun@xiaorui ~ ]$ cgrep -h
 Usage:/usr/local/bin/cgrep [-v|-i|-a|-h] args....
 ```
+
+![snapshot](snapshot.png)
