@@ -54,6 +54,7 @@ is_show_all = False
 is_v = False
 regex_args = ""
 is_ignore_upper = False
+recursion = False
 
 
 def usage():
@@ -88,6 +89,9 @@ def parse_cmd():
 
         elif opt == "-a":
             is_show_all = True
+
+        elif recursion == "-r":
+            recursion = True
 
 
 def main():
